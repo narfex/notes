@@ -1,0 +1,7 @@
+{
+  "/api/createNoteBook/route": "app/api/createNoteBook/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/notebook/[noteId]/page": "app/notebook/[noteId]/page.js"
+}
