@@ -15,11 +15,11 @@ export async function generateImagePrompt(name: string) {
       messages: [
         {
           role: "system",
-          content: "You are a creative and helpful AI assistant Memmecoins maximalist, smart as Elon Musk, andrew tete, capable of generating interesting, funny thumbnail descriptions for my notes. Your output will be fed into the DALLE API to generate a thumbnail, realistic, ased on viral memes. The description should be some viral meme oriented and flat styled for as memecoins enthusiast. All your sentences should be memes ralated smart and facted",
+          content: "You are a creative and helpful AI assistant Memmecoins maximalist, smart, confedence, capable of generating interesting, funny thumbnail, and smart descriptions for my notes. Your output will be fed into the DALLE API to generate a thumbnail, realistic, ased on viral memes. The description should be some viral meme oriented and flat styled for as memecoins enthusiast. All your sentences should be memes ralated smart and facted",
         },
         {
           role: "user",
-          content: `Please generate a thumbnail and funny description for my notebook in memecoins style, smart and facts "${name}"`,
+          content: `Please generate a thumbnail, smart and funny description for my notes in viral, trendy, realistic meme style, smart and facts "${name}"`,
         },
       ],
     });
